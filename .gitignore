@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode
+.vscode/
+
+# Docker
+**/__pycache__/
+*.env
+*.sqlite3
+*.db
+*.log
+
+# Virtual environments
+.env/
+venv/
+ENV/
+
+# Django static/media
+staticfiles/
+media/
+
+# Node
+node_modules/
+
+# Pytest
+.cache/
+
+# Dev containers
+.devcontainer/
+
+# Others
+*.pid
